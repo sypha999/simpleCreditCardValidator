@@ -41,6 +41,14 @@ This module validates whether a given card number is a legitimate **Verve card**
 
 ---
 
+## Running the Application
+
+Open the project on any Intelli J Idea and run the `index.js` file, or use the terminal to navigate to the project directory and execute with:
+`node index.js`
+
+
+---
+
 ## How It Works
 
 ### Step 1 — Verve Pattern Check
