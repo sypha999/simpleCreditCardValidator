@@ -1,4 +1,4 @@
-const luhnCheck = require ("./helper.js");
+const {luhnCheck} = require ("./helper.js");
 
 function validateCard(number, doExtraCheck) {
     const vervePattern = /^(5060|5061|5078|5079|6500)[0-9]{12,15}$/;
