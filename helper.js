@@ -1,4 +1,4 @@
-export function luhnCheck(num) {
+function luhnCheck(num) {
     let sum = 0;
     let shouldDouble = false;
 
@@ -16,3 +16,7 @@ export function luhnCheck(num) {
 
     return sum % 10 === 0;
 }
+
+module.exports = {
+luhnCheck
+};
